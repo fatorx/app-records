@@ -36,6 +36,7 @@ cp .env.dist .env
 Add permissions to folder data (MySQL and logs) and api/data (logs), this is where the persistence files will be kept.
 ```shell script
 chmod 755 data
+mkdir api/data/logs
 chmod 755 api/data/logs
 ```
 
