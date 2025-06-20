@@ -1,0 +1,7 @@
+curl --location 'http://0.0.0.0:8020/records?movement=1'
+
+curl --location 'http://0.0.0.0:8020/records?movement=Deadlift'
+
+curl --location 'http://0.0.0.0:8020/records?movement=2'
+
+curl --location 'http://0.0.0.0:8020/records?movement=Back Squat'

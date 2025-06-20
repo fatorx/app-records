@@ -1,0 +1,32 @@
+# Composer files
+composer.phardi
+vendor/
+
+# Local configs
+config/autoload/*.local.php
+
+# Binary gettext files
+*.mo
+
+# Data
+api/data/logs/*
+data/cache/
+data/sessions/
+data/tmp/
+data/report/
+temp/
+
+#Local
+.idea
+.env
+d-*
+/docker/mysql/*
+.run/
+docker-compose-unit.yml
+data/volumes
+static
+
+api/.phpunit.cache
+api/.phpunit.result.cache
+
+*test.php*
